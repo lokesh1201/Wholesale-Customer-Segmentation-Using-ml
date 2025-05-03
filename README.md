@@ -1,46 +1,61 @@
-Wholesale Customer Segmentation using Machine Learning
-Project Overview
-Wholesale customer label prediction is a machine learning (ML) technique used to predict the labels of new customers based on historical data. This project focuses on analyzing the spending behavior of wholesale customers and identifying opportunities for growth. The dataset consists of annual spending across various product categories such as fresh, milk, grocery, frozen, detergents, and paper, along with information on the customer’s channel (hotel/restaurant/cafe or retail) and region (Lisbon, Oporto, or other).
+# 🧠 Wholesale Customer Segmentation using Machine Learning
 
-By identifying customer segments with distinct spending behaviors, the project provides insights on how wholesale businesses can tailor marketing strategies and product offerings to better serve each customer segment.
+## 📌 Overview
 
-Key Features:
-Spending data across multiple categories
-Channel of purchase (hotel/restaurant/cafe or retail)
-Region of the customer (Lisbon, Oporto, or other)
-Objective:
-The goal is to use machine learning algorithms to segment wholesale customers based on their purchasing behavior, allowing businesses to:
+This project leverages unsupervised machine learning techniques to segment wholesale customers based on their annual purchasing behavior. By analyzing patterns across different spending categories and customer metadata (like region and sales channel), businesses can gain actionable insights to:
 
-Develop targeted marketing campaigns
-Optimize inventory management
-Improve customer satisfaction
-Technologies Used
-Python
-Machine Learning Libraries: Scikit-learn, Pandas, Seaborn, Matplotlib, SciPy
-Data Processing: Numpy, Scikit-learn preprocessing
-Installation
-To set up the project, follow these steps:
+- Tailor marketing campaigns
+- Optimize inventory planning
+- Enhance customer service strategies
 
-Clone this repository:
-git clone https://github.com/2003-kani/wholesale-customer-segmentation-using-ml.git
+The dataset includes spending amounts across the following categories:
+- Fresh
+- Milk
+- Grocery
+- Frozen
+- Detergents & Paper  
+...along with the **customer’s channel** (Hotel/Restaurant/Café or Retail) and **region** (Lisbon, Oporto, or Other).
 
-Navigate into the project folder:
-cd wholesale-customer-segmentation-using-ml
+---
 
-Install the required dependencies:
-pip install -r requirements.txt
-Project Structure
-data/ - Contains the dataset
-notebooks/ - Jupyter Notebooks with data analysis and model training
-src/ - Python scripts for data processing and machine learning
-requirements.txt - List of dependencies for the project
-README.md - Project documentation
-Usage
-Run the project by following these steps:
+## 🎯 Objectives
 
-Open the notebooks/ folder and execute the Jupyter notebooks for analysis and model training.
+- Cluster customers into meaningful groups using ML algorithms
+- Visualize customer segments for better interpretation
+- Derive business insights from spending patterns
 
-The model can be trained using algorithms like K-Means Clustering, Hierarchical Clustering, and DBSCAN to segment customers based on their behavior.
+---
 
-Conclusion
-This project applies machine learning techniques to segment wholesale customers based on their spending behavior. The insights derived can help businesses create targeted marketing strategies, better manage inventory, and improve customer satisfaction, ultimately driving long-term growth and profitability.
+## 🚀 Features
+
+- 🔍 Exploratory Data Analysis (EDA) with visual insights  
+- ⚙️ Feature scaling and dimensionality reduction (PCA)  
+- 🤖 Clustering using:
+  - K-Means
+  - Hierarchical Clustering
+  - DBSCAN
+- 📊 Visualized cluster behavior
+- 📁 Modular structure for scalability
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language**: Python  
+- **Libraries**:  
+  - Data Analysis: `pandas`, `numpy`  
+  - Visualization: `matplotlib`, `seaborn`  
+  - Machine Learning: `scikit-learn`, `scipy`
+
+---
+
+## 📂 Project Structure
+
+```bash
+wholesale-customer-segmentation-using-ml/
+│
+├── data/                 # Dataset CSV files
+├── notebooks/            # Jupyter notebooks for experiments & EDA
+├── src/                  # Modular Python scripts
+├── requirements.txt      # Python dependencies
+└── README.md             # Project documentation
