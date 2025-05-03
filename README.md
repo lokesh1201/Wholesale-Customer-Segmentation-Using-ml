@@ -48,14 +48,3 @@ The dataset includes spending amounts across the following categories:
   - Machine Learning: `scikit-learn`, `scipy`
 
 ---
-
-## 📂 Project Structure
-
-```bash
-wholesale-customer-segmentation-using-ml/
-│
-├── data/                 # Dataset CSV files
-├── notebooks/            # Jupyter notebooks for experiments & EDA
-├── src/                  # Modular Python scripts
-├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation
