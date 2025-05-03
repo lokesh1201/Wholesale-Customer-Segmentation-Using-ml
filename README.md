@@ -48,3 +48,43 @@ The dataset includes spending amounts across the following categories:
   - Machine Learning: `scikit-learn`, `scipy`
 
 ---
+
+## ⚙️ Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/lokesh1201/Wholesale-Customer-Segmentation-Using-ml.git
+   cd wholesale-customer-segmentation-using-ml
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the analysis:**
+   Open the `.ipynb` files in the `notebooks/` folder using Jupyter Notebook or VS Code.
+
+---
+
+## 🧪 Clustering Techniques Used
+
+* **K-Means Clustering:** Fast and efficient for large datasets
+* **Hierarchical Clustering:** Provides a dendrogram-based structure
+* **DBSCAN:** Captures noise and arbitrary shaped clusters
+
+Each model was tested after scaling and PCA transformation to improve performance and reduce dimensionality.
+
+---
+
+## 📈 Outcomes
+
+By segmenting customers based on behavioral patterns, the project helps wholesalers:
+
+* Design personalized product bundles
+* Focus sales efforts on high-potential customer segments
+* Strategically expand into specific regions or channels
+
+---
